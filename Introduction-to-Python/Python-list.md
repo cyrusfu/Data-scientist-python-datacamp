@@ -10,7 +10,7 @@ Use [] and , to create a list.
 
 Example
 
-*Python script:
+*Python script:*
 
     # area variables (in square meters)
     hall = 11.25
@@ -25,13 +25,13 @@ Example
     # Print areas
     print(areas)
 
-*IPythonshell:
+*IPythonshell:*
 
     [11.25, 18.0, 20.0, 10.75, 9.5, 'ar', True, 10]
 
 Other example
 
-*Python script:
+*Python script:*
 
     # area variables (in square meters)
     hall = 11.25
@@ -45,7 +45,7 @@ Other example
 
     # Print areas
 
-*IPythonshell:
+*IPythonshell:*
 
     <script.py> output:
         ['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0, 'bedroom', 10.75, 'bathroom', 9.5]
@@ -62,7 +62,7 @@ Use [[,],[,]] to build a list of list.
 
 Example
 
-*Python script:
+*Python script:*
 
     # area variables (in square meters)
     hall = 11.25
@@ -80,7 +80,7 @@ Example
     # Print out the type of house
     print(type(house))
     
-*IPythonshell:
+*IPythonshell:*
 
     [['hallway', 11.25], ['kitchen', 18.0], ['living room', 20.0], ['bedroom', 10.75], ['bathroom', 9.5]]
     <class 'list'>
@@ -94,7 +94,7 @@ Also can use [-1] to select the last element of your list.**
 
 Example
 
-*Python script
+*Python script*
 
     # Create the areas list
     areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
@@ -108,7 +108,7 @@ Example
     # Print out the area of the living room
     print(areas[5])
 
-*IPythonshell
+*IPythonshell*
 
     <script.py> output:
         11.25
@@ -140,7 +140,7 @@ you have a list of your house, and you want to know the areas of kitchen and bed
     # Print the variable eat_sleep_area
     print(eat_sleep_area)
     
-*IPythonshell:
+*IPythonshell:*
 
     <script.py> output:
         28.75
