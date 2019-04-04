@@ -38,6 +38,7 @@ To add comments to your Python script, you can use the # tag. **These comments a
 
 Example:
 code:
+       
        # Division
        print(5 / 8)
 
