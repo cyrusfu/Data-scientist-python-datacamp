@@ -3,6 +3,8 @@ Python-basics
 
 1.The Python Interface
 ---
+Instructions:
+Trying to do some simple colculation on python.
 
 You can type your code in the python script and to get the out put in the IPython shell.
 python script:
@@ -24,5 +26,6 @@ python IPythonshell:
         0.625
         17
 
-'/' equals division, '-' equals minus, '+' equals plus, '*' equals times.
-Type print to show the outcome.
+**'/' equals division, '-' equals minus, '+' equals plus, '*' equals times.
+Type print to show the outcome.**
+
