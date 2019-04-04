@@ -184,7 +184,7 @@ Example
         
 **You can not use [-1,-2] to slicing the list.**
 
-**If you don't specify the begin index, Python figures out that you want to start your slice at the beginning of your list. If you don't specify the end index, the slice will go all the way to the last element of your list. **
+**If you don't specify the begin index, Python figures out that you want to start your slice at the beginning of your list. If you don't specify the end index, the slice will go all the way to the last element of your list.**
 
 Example 
 
