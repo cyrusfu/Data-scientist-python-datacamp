@@ -233,7 +233,7 @@ So we nead to convert their type to fit the syntax.
 
 We can use floar() int() str() bool() to change their type.
 
-Example: 
+Example 1.8.1: 
 
 Python script:
 
@@ -258,7 +258,7 @@ IPythonshell:
        3.1415926
        
 
-**What is the result if we convert int, float and str into bool?
+**1.8.2 What is the result if we convert int, float and str into bool? or we convert bool to int, str and float?**
 
 Python script:
 
@@ -281,5 +281,50 @@ IPythonshell:
        True
        True
        True
+
+Python script:
+
+       # bool convert to int
+       a = True
+       print(int(a))
+
+       # bool convert to float
+       print(float(a))
+
+       # bool convert to str
+       print(str(a))
+
+Ipythonshell:
+
+       1
+       1.0
+       True
        
 **Conclusion: Int, str and float can convert to bool, and the output is the same, it always return True for this convert.
+Also bool can convert into int, float and bool. (True will return 1 or 1.0 when convert to int and float. Flase will return 0 or 0.0 for them.)**
+
+**1.8.3 Can we convert character str to int and floar or bool?
+
+Python script:
+
+       # Convert str to int, float and bool
+       a = 'a'
+       int(a)
+       float(a)
+       bool(a)
+IPthonshell:
+
+       Traceback (most recent call last):
+       File "<stdin>", line 3, in <module>
+       int(a)
+       ValueError: invalid literal for int() with base 10: 'a'
+       
+       Traceback (most recent call last):
+        File "<stdin>", line 3, in <module>
+       float(a)
+       ValueError: could not convert string to float: 'a'
+       True
+       
+**Conclustion: We can not convert character str to int and float, but can convert to bool and the result is True.
+
+
