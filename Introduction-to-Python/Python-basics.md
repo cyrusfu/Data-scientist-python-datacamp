@@ -94,7 +94,7 @@ IPythonshell:
 1.4 Variable Assignment
 ---
 
-**Useing python you can type " = " to refer a value with a name. To creat a varialbe use " = ".
+**Useing python you can type " = " to refer a value with a name. To creat a varialbe use " = ".**
 
 Example:
 
@@ -110,7 +110,7 @@ IPythonshell:
 
        100
        
-**In python " = " means assignment not equality.
+**In python " = " means assignment not equality.**
 
 1.5 Calculation with varialbe
 ---
