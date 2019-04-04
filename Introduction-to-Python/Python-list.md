@@ -115,13 +115,17 @@ Example
         9.5
         20.0
         
-**Python counting the element of list start from 0.
-eg.
--5,-4,-3,-2,-1**
+**Python counting the element of list start from 0.**
+
+Example
+
+**-5,-4,-3,-2,-1**
 
 **[a,s,d,f,g]**
 
 **0,1,2,3,4**
+
+
 
 2.5 Subset and calculate
 ---
