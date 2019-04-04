@@ -225,7 +225,7 @@ IPythonshell:
 **The product of int and float always return a float.
 The sum of two strings is simply add combined two strings together.
 The sum of two booleans are int 2, True return int(1), false return int(0).
-If you add or minus booleans you will get a int.
+If you add or minus booleans you will get a int.**
 
 1.8 Type conversion
 ---
