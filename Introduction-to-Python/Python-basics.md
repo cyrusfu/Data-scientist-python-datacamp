@@ -42,7 +42,7 @@ code:
        # Division
        print(5 / 8)
 
-       #Addition
+       # Addition
        print(7 + 10)
        
 outcome:
@@ -50,7 +50,7 @@ outcome:
        # Division
         print(5 / 8)
         
-        #Addition
+       # Addition
         print(7 + 10)
         0.625
         17
