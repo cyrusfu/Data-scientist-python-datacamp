@@ -1,3 +1,4 @@
+[toc]
 2.Python List
 ===
 
