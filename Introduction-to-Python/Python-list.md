@@ -1,4 +1,3 @@
-[toc]
 2.Python List
 ===
 
@@ -183,7 +182,7 @@ Example
         ['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0]
         ['bedroom', 10.75, 'bathroom', 9.5]
         
-**You can not use [-1,-2] to slicing the list.**
+**You can not use [-1,-2] to slicing the list, But you can use[-2,-1] to slicing the list, it is about the index.**
 
 **If you don't specify the begin index, Python figures out that you want to start your slice at the beginning of your list. If you don't specify the end index, the slice will go all the way to the last element of your list.**
 
@@ -307,4 +306,52 @@ Example
              "chill zone", 20.0, "bedroom", 10.75,
              "bathroom", 10.50,"garage", 15.45]
 
+2.10 Inner working of lists
+---
 
+**If we have a list x and we want to copy list x and you type x_copy = x then the change of x_cope will also change list x, becouse they print the same list.**
+
+**If you type x_copy = list(x) then the change of x_copy will not influence list x.**
+
+Example:
+
+*Python script:*
+
+    # Create list areas
+    areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+
+    # Create areas_copy
+    areas_copy = areas
+
+    # Change areas_copy
+    areas_copy[0] = 5.0
+
+    # Print areas
+    print(areas)    
+
+*IPythonshell:*
+
+    [5.0, 18.0, 20.0, 10.75, 9.5]
+    
+we can see in this case, elements of both two list changed. It is becouse they are the same list.
+
+
+*Python script:*
+
+    # Create list areas
+    areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+
+    # Create areas_copy
+    areas_copy = list(areas)
+
+    # Change areas_copy
+    areas_copy[0] = 5.0
+
+    # Print areas
+    print(areas)
+
+*IPthonshell:*
+
+    [11.25, 18.0, 20.0, 10.75, 9.5]
+    
+In this case we can see that areas remained the same. Becouse ares_copy = list(area), it create two different list.
