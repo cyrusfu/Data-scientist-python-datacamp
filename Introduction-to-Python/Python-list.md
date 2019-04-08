@@ -1,5 +1,3 @@
-[TOC]
-
 2.Python List
 ===
 
