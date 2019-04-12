@@ -44,7 +44,7 @@ Use plt.show() to show the plot.
 Example 
 
 *Python script*
-`
+```
 # Print the last item of gdp_cap and life_exp
 print(gdp_cap[-1])
 print(life_exp[-1])
@@ -54,14 +54,14 @@ plt.plot(gdp_cap,life_exp)
 
 # Display the plot
 plt.show()
-`
+```
 
 *IPythonshell*
-`
+```
 <script.py> output:
     469.70929810000007
     43.487
-`
+```
 ![avatar](https://thumbnail0.baidupcs.com/thumbnail/f286a2ee8abbf3fded76937cc3a40b2e?fid=3730888783-250528-929140149197988&time=1555056000&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zeGhiB0g5xPdpZlF9blTCOSKPrQ%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2358847365947123499&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video)
 
 1.3 Scatter Plot
@@ -75,7 +75,7 @@ Example
 a.If you do not change the xscale
 
 *Python script*
-`
+```
 # Change the line plot below to a scatter plot
 plt.scatter(gdp_cap, life_exp)
 
@@ -83,7 +83,7 @@ plt.scatter(gdp_cap, life_exp)
 
 # Show plot
 plt.show()
-`
+```
 
 *IPythonshell*
 
@@ -92,7 +92,7 @@ plt.show()
 b.If you change the x-scale
 
 *Python script*
-`
+```
 # Change the line plot below to a scatter plot
 plt.scatter(gdp_cap, life_exp)
 
@@ -101,7 +101,7 @@ plt.xscale('log')
 
 # Show plot
 plt.show()
-`
+```
 
 *IPythonshell*
 
@@ -120,7 +120,7 @@ Show the plot.
 Example
 
 *Python script*
-`
+```
 # Import package
 import matplotlib.pyplot as plt
 
@@ -129,7 +129,7 @@ plt.scatter(pop,life_exp)
 
 # Show plot
 plt.show()
-`
+```
 
 *IPythonshell*
 
@@ -143,13 +143,13 @@ Use plt.hist() to build the histogram.
 Use plt.show() to show the graphy.
 
 *Python script*
-`
+```
 # Create histogram of life_exp data
 plt.hist(life_exp)
 
 # Display histogram
 plt.show()
-`
+```
 
 *IPythonshell*
 
@@ -167,7 +167,7 @@ Example
 a. if you do not use plt.clf() to clean the last pic.
 
 *Python script*
-`
+```
 # Build histogram with 5 bins
 plt.hist(life_exp, bins = 5)
 
@@ -180,7 +180,7 @@ plt.hist(life_exp, bins = 20)
 
 # Show and clean up again
 plt.show()
-`
+```
 
 *IPythonshell*
 
@@ -191,7 +191,7 @@ plt.show()
 b.if you use plt.clf to clean the last picture.
 
 *Python script*
-`
+```
 # Build histogram with 5 bins
 plt.hist(life_exp, bins = 5)
 
@@ -205,7 +205,7 @@ plt.hist(life_exp, bins = 20)
 # Show and clean up again
 plt.show()
 plt.clf()
-`
+```
 
 *IPythonshell*
 
