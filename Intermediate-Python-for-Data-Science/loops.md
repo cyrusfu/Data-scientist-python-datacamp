@@ -47,4 +47,41 @@ While offset != 0 :
 1.2 Add Conditionals
 ---
 
+Sometimes you will meet some problem that your while loop will keep run forever.
+So you need add some conditionals to make sure it works.
 
+Example
+
+*Python script*
+```
+# Initialize offset
+offset = -6
+
+# Code the while loop
+while offset != 0 :
+    print("correcting...")
+    if offset > 0:
+        offset = offset - 1
+    else :
+        offset = offset + 1
+    print(offset)
+```
+
+*IPythonshell*
+```
+<script.py> output:
+    correcting...
+    -5
+    correcting...
+    -4
+    correcting...
+    -3
+    correcting...
+    -2
+    correcting...
+    -1
+    correcting...
+    0
+```
+
+1.3 
