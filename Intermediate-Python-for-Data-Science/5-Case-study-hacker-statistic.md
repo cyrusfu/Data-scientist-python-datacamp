@@ -184,6 +184,39 @@ print(random_walk)
     [0, 3, 4, 5, 4, 5, 6, 7, 6, 5, 4, 3, 2, 1, 0, 0, 1, 6, 5, 4, 5, 4, 5, 6, 7, 8, 9, 8, 9, 8, 9, 10, 11, 12, 11, 15, 16, 15, 16, 15, 16, 17, 18, 19, 20, 21, 22, 25, 26, 27, 28, 33, 34, 38, 39, 38, 39, 40, 39, 40, 41, 43, 44, 45, 44, 43, 44, 45, 44, 43, 44, 45, 47, 46, 45, 46, 45, 46, 47, 48, 50, 49, 50, 51, 52, 53, 54, 53, 52, 53, 52, 53, 54, 53, 56, 57, 58, 59, 58, 59, 60]
 ```
 
-6.Visulize the walk
+6.Visualize the walk
 ---
+Use matplotlib package to visualise the walk.
 
+*Python script*
+```
+# Numpy is imported, seed is set
+
+# Initialization
+random_walk = [0]
+
+for x in range(100) :
+    step = random_walk[-1]
+    dice = np.random.randint(1,7)
+
+    if dice <= 2:
+        step = max(0, step - 1)
+    elif dice <= 5:
+        step = step + 1
+    else:
+        step = step + np.random.randint(1,7)
+
+    random_walk.append(step)
+
+# Import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+
+# Plot random_walk
+plt.plot(random_walk)
+
+# Show the plot
+plt.show()
+```
+
+*IPythonshell*
+[avatar]https://share.weiyun.com/5FnF5zN
